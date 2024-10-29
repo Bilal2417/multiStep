@@ -2,12 +2,12 @@
   "name": "multi-step",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+"scripts": {
+  "build": "react-scripts build",
+  "start": "react-scripts start",
+  "vercel-build": "npm install --legacy-peer-deps && npm run build"
+},
+
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
